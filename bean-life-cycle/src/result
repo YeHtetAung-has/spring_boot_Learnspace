@@ -1,0 +1,34 @@
+Starting .......... BeanFactoryPostProcessor!
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+config
+student
+beanFactoryPostProcessor
+beanPostProcessor
+room
+environment
+systemProperties
+systemEnvironment
+applicationStartup
+org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry
+Ending .............. BeanFactoryPostProcessor!
+BeanPostProcessor postProcessBeforeInitialization :: config
+BeanPostProcessor postProcessAfterInitialization :: config
+Student constructor
+BeanPostProcessor postProcessBeforeInitialization :: student
+BeanPostProcessor postProcessAfterInitialization :: student
+Room constructor
+setStudentStudent
+BeanPostProcessor postProcessBeforeInitialization :: room
+Room :: postConstructor
+Room :: afterPropertiesSet
+Room :: customInit
+BeanPostProcessor postProcessAfterInitialization :: room
+Student constructor
+Noto :: studentOfRoom
+Room :: predestory
+DisposableBean Room :: destroy
+Room :: customDestroy
